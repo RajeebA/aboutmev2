@@ -1,0 +1,85 @@
+.list-group {
+  /* position: sticky; */
+  top: 180px;
+  position: -webkit-sticky;
+  position: sticky;
+  margin: 0;
+}
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  background-color: #fff;
+  border: none;
+  color: #000;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  font-weight: 700;
+  cursor: pointer;
+}
+.resume-wrap {
+  width: 100%;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px;
+}
+.resume-wrap .icon {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.resume-wrap .icon-wrap {
+  width: 50px;
+  height: 50px;
+  background-color: #3e64ff;
+  border-radius: 50%;
+}
+.resume-wrap .text {
+  width: calc(100% - 50px);
+}
+.resume-wrap .date {
+  font-weight: 700;
+  font-size: 16px;
+  color: #3e64ff;
+}
+.resume-wrap h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.resume-wrap .position {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.5;
+}
+.resume-wrap p {
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 600;
+  color: #999;
+}
+.page .heading {
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #3e64ff;
+}
+.active-resume {
+  color: #3e64ff;
+  margin-left: 20px;
+  position: relative;
+}
+.active-resume:after {
+  position: absolute;
+  top: 50%;
+  left: -24px;
+  width: 20px;
+  height: 2px;
+  content: "";
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background: #3e64ff;
+}
+.animate-box {
+  padding-bottom: 2rem;
+}

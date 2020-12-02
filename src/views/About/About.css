@@ -1,0 +1,36 @@
+.responsive-image {
+  /* border-radius: 50px; */
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+}
+.heading-section h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.heading-section p {
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 600;
+  color: #999;
+}
+.about-info li span:first-child {
+  font-weight: 600;
+  color: #000;
+  line-height: 1.8;
+  width: 130px;
+}
+.about-info li span {
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 600;
+  color: #999;
+}
+.social-links {
+  text-decoration: none;
+}
+.social-links {
+  text-decoration: none !important;
+}
+.social-text {
+  font-weight: 600;
+}

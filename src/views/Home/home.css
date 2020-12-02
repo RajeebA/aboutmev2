@@ -1,0 +1,30 @@
+#banner {
+  background-color: #34adff;
+  background-image: -webkit-linear-gradient(150deg, #34adff 35%, #4cbfff 35%);
+  min-height: 100vh;
+}
+.slider-text .subheading {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 800;
+  color: #3e64ff;
+  letter-spacing: 4px;
+}
+.slider-text h1 {
+  font-size: 60px;
+  font-weight: 800;
+}
+.slider-text h2 {
+  font-weight: 800;
+}
+.ml3 {
+  font-weight: 700;
+  font-size: 2.5em;
+}
+.section {
+  padding: 7em 0;
+  position: relative;
+}
+.full-height {
+  height: 100vh;
+}
