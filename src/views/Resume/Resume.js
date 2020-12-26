@@ -131,15 +131,10 @@ const Resume = ({ create }) => {
                   <i class="fa fa-graduation-cap icon" aria-hidden="true"></i>
                 </div>
                 <div class="text pl-3">
-                  <span class="date">2014-2015</span>
-                  <h2>Bachelor of Science in Computer Science</h2>
-                  <span class="position">Cambridge University</span>
-                  <p>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia. It is a paradisematic
-                    country, in which roasted parts of sentences fly into your
-                    mouth.
-                  </p>
+                  <span class="date">2015-2018</span>
+                  <h2>Bachelor of Computer Application</h2>
+                  <span class="position">Nehru Arts and Science College</span>
+                  <p>Completed BCA (Computer Application) with 76%.</p>
                 </div>
               </div>
               <div class="resume-wrap d-flex ftco-animate fadeInUp ftco-animated">
@@ -147,15 +142,10 @@ const Resume = ({ create }) => {
                   <i class="fa fa-graduation-cap icon" aria-hidden="true"></i>
                 </div>
                 <div class="text pl-3">
-                  <span class="date">2014-2015</span>
-                  <h2>Computer Processing Systems/Computer Software</h2>
-                  <span class="position">Cambridge University</span>
-                  <p>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia. It is a paradisematic
-                    country, in which roasted parts of sentences fly into your
-                    mouth.
-                  </p>
+                  <span class="date">2013-2015</span>
+                  <h2>HSE Computer Science</h2>
+                  <span class="position">VMHSS Vadavannur</span>
+                  <p>Completed HSE (Computer Science) with 72%.</p>
                 </div>
               </div>
               <div class="resume-wrap d-flex ftco-animate fadeInUp ftco-animated">
@@ -163,31 +153,10 @@ const Resume = ({ create }) => {
                   <i class="fa fa-graduation-cap icon" aria-hidden="true"></i>
                 </div>
                 <div class="text pl-3">
-                  <span class="date">2014-2015</span>
-                  <h2>Diploma in Computer</h2>
-                  <span class="position">Cambridge University</span>
-                  <p>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia. It is a paradisematic
-                    country, in which roasted parts of sentences fly into your
-                    mouth.
-                  </p>
-                </div>
-              </div>
-              <div class="resume-wrap d-flex ftco-animate fadeInUp ftco-animated">
-                <div class="icon-wrap d-flex align-items-center justify-content-center">
-                  <i class="fa fa-graduation-cap icon" aria-hidden="true"></i>
-                </div>
-                <div class="text pl-3">
-                  <span class="date">2014-2015</span>
-                  <h2>Art &amp; Creative Director</h2>
-                  <span class="position">Cambridge University</span>
-                  <p>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia. It is a paradisematic
-                    country, in which roasted parts of sentences fly into your
-                    mouth.
-                  </p>
+                  <span class="date">2012-2013</span>
+                  <h2>SSLC</h2>
+                  <span class="position">BSSHSS Kollengode</span>
+                  <p>Completed SSLC with 80%.</p>
                 </div>
               </div>
             </div>
@@ -198,14 +167,13 @@ const Resume = ({ create }) => {
                   <i class="fa fa-history icon" aria-hidden="true"></i>
                 </div>
                 <div class="text pl-3">
-                  <span class="date">2014-2015</span>
-                  <h2>Web Developer</h2>
-                  <span class="position">Cambridge University</span>
+                  <span class="date">2018-2019</span>
+                  <h2>JavaScript Developer</h2>
+                  <span class="position">Crisp Cloud Solution Coimbatore</span>
                   <p>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia. It is a paradisematic
-                    country, in which roasted parts of sentences fly into your
-                    mouth.
+                    implementing the front-end logic that defines the behavior
+                    of the visual elements of a web application.connecting this
+                    with the services that reside on the back-end.
                   </p>
                 </div>
               </div>
@@ -214,14 +182,15 @@ const Resume = ({ create }) => {
                   <i class="fa fa-history icon" aria-hidden="true"></i>
                 </div>
                 <div class="text pl-3">
-                  <span class="date">2014-2015</span>
-                  <h2>Mobile Apps Developer</h2>
-                  <span class="position">Cambridge University</span>
+                  <span class="date">2019-2020</span>
+                  <h2>Web Apps Developer</h2>
+                  <span class="position">Riafy Technologies</span>
                   <p>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia. It is a paradisematic
-                    country, in which roasted parts of sentences fly into your
-                    mouth.
+                    Writing well designed, testable, efficient code by using
+                    best software development practices. Creating website
+                    layout/user interfaces by using standard HTML/CSS practices.
+                    Integrating data from various back-end services and
+                    databases.
                   </p>
                 </div>
               </div>
@@ -230,14 +199,12 @@ const Resume = ({ create }) => {
                   <i class="fa fa-history icon" aria-hidden="true"></i>
                 </div>
                 <div class="text pl-3">
-                  <span class="date">2014-2015</span>
+                  <span class="date">2019-2020</span>
                   <h2>Backend Developer</h2>
-                  <span class="position">Cambridge University</span>
+                  <span class="position">Riafy Technologies</span>
                   <p>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia. It is a paradisematic
-                    country, in which roasted parts of sentences fly into your
-                    mouth.
+                    writing server-side web application logic in JavaScript with
+                    database scripts MYSQL ,PostgreSQL and MongoDB.
                   </p>
                 </div>
               </div>

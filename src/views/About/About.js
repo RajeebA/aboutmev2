@@ -26,27 +26,37 @@ const About = () => {
       <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pl-md-5 py-5 heading-section">
         <h2 className="mb-4">About Me</h2>
         <p>
-          A small river named Duden flows by their place and supplies it with
-          the necessary regelialia.
+          I am an full-stack web/mobile developer and UI/UX javascript
+          specialist.
         </p>
         <ul class="about-info mt-4 px-md-0 px-2">
           <li class="d-flex">
-            <span>Name:</span> <span>Ronaldo Fredrickson</span>
+            <span>Name:</span> <span>Rajeeb A</span>
           </li>
           <li class="d-flex">
-            <span>Date of birth:</span> <span>November 28, 1989</span>
+            <span>Date of birth:</span> <span>May 12, 1998</span>
           </li>
           <li class="d-flex">
-            <span>Address:</span> <span>San Francisco CA 97987 USA</span>
+            <span>Address:</span>{" "}
+            <span>Kollengode, Palakkad, Kerala, India.</span>
           </li>
           <li class="d-flex">
-            <span>Zip code:</span> <span>1000</span>
+            <span>Pin code:</span> <span>678506</span>
           </li>
           <li class="d-flex">
-            <span>Email:</span> <span>ronaldo@gmail.com</span>
+            <span>Email:</span> <span>rajeebpachu@gmail.com</span>
           </li>
           <li class="d-flex">
-            <span>Phone: </span> <span>+1-2234-5678-9-0</span>
+            <span>Phone: </span>{" "}
+            <span>
+              <a href="tel:+918078054465">+918078054465</a>
+            </span>
+          </li>
+          <li class="d-flex">
+            <span>Tel: </span>
+            <span>
+              <a href="tel:+916282831479">+916282831479</a>
+            </span>
           </li>
         </ul>
       </div>
