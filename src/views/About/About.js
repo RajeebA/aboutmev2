@@ -26,8 +26,7 @@ const About = () => {
       <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 pl-md-5 py-5 heading-section">
         <h2 className="mb-4">About Me</h2>
         <p>
-          I am an full-stack web/mobile developer and UI/UX javascript
-          specialist.
+          I am full-stack web/mobile developer and UI/UX javascript specialist.
         </p>
         <ul class="about-info mt-4 px-md-0 px-2">
           <li class="d-flex">
