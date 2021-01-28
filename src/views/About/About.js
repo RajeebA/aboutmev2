@@ -10,7 +10,7 @@ import linkedin from "react-useanimations/lib/linkedin";
 
 const About = () => {
   return (
-    <div className="row">
+    <div className="row about-screen">
       <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <div className="card">
           <div className="card-body p-0">
@@ -28,30 +28,30 @@ const About = () => {
         <p>
           I am full-stack web/mobile developer and UI/UX javascript specialist.
         </p>
-        <ul class="about-info mt-4 px-md-0 px-2">
-          <li class="d-flex">
+        <ul className="about-info mt-4 px-md-0 px-2">
+          <li className="d-flex">
             <span>Name:</span> <span>Rajeeb A</span>
           </li>
-          <li class="d-flex">
+          <li className="d-flex">
             <span>Date of birth:</span> <span>May 12, 1998</span>
           </li>
-          <li class="d-flex">
+          <li className="d-flex">
             <span>Address:</span>{" "}
             <span>Kollengode, Palakkad, Kerala, India.</span>
           </li>
-          <li class="d-flex">
+          <li className="d-flex">
             <span>Pin code:</span> <span>678506</span>
           </li>
-          <li class="d-flex">
+          <li className="d-flex">
             <span>Email:</span> <span>rajeebpachu@gmail.com</span>
           </li>
-          <li class="d-flex">
+          <li className="d-flex">
             <span>Phone: </span>{" "}
             <span>
               <a href="tel:+918078054465">+918078054465</a>
             </span>
           </li>
-          <li class="d-flex">
+          <li className="d-flex">
             <span>Tel: </span>
             <span>
               <a href="tel:+916282831479">+916282831479</a>

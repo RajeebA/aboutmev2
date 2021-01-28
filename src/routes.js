@@ -14,7 +14,7 @@ export default [
     path: "/",
     exact: true,
     layout: AuthLayout,
-    component: () => <Redirect to="/auth" />,
+    component: () => <Redirect to="/home" />,
   },
   {
     path: "/auth",

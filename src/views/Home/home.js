@@ -5,7 +5,44 @@ import About from "../About/About";
 import Resume from "../Resume/Resume";
 import FadeInSection from "../../commons/Fadeinsection/FadeInSection";
 import { scroller } from "react-scroll";
+import Services from "../Services/Service";
+import Projects from "../Projects/Projects";
 const Homeview = () => {
+  const consoleText = (words, id, colors) => {
+    if (colors === undefined) colors = ["#fff"];
+    let letterCount = 1;
+    let x = 1;
+    let waiting = false;
+    let target = document.getElementById(id);
+    target.setAttribute("style", "color:" + colors[0]);
+    window.setInterval(function () {
+      if (letterCount === 0 && waiting === false) {
+        waiting = true;
+        target.innerHTML = words[0].substring(0, letterCount);
+        window.setTimeout(function () {
+          let usedColor = colors.shift();
+          colors.push(usedColor);
+          let usedWord = words.shift();
+          words.push(usedWord);
+          x = 1;
+          target.setAttribute("style", "color:" + colors[0]);
+          letterCount += x;
+          waiting = false;
+        }, 1000);
+      } else if (letterCount === words[0].length + 1 && waiting === false) {
+        waiting = true;
+        window.setTimeout(function () {
+          x = -1;
+          letterCount += x;
+          waiting = false;
+        }, 1000);
+      } else if (waiting === false) {
+        target.innerHTML = words[0].substring(0, letterCount);
+        letterCount += x;
+      }
+    }, 120);
+  };
+
   const [skillSection, setSkillSection] = useState(false);
   useEffect(() => {
     anime({
@@ -16,37 +53,21 @@ const Homeview = () => {
       autoPlay: false,
       offset: 1000,
     });
-    sliderText();
     window.addEventListener("scroll", handleScroll);
     return () => {};
   }, []);
-
-  const sliderText = () => {
-    var textWrapper = document.querySelector(".ml3");
-    textWrapper.innerHTML = textWrapper.textContent.replace(
-      /\S/g,
-      "<span class='letter'>$&</span>"
+  useEffect(() => {
+    consoleText(
+      ["Web Application Developer", "Mobile Application Developer"],
+      "text",
+      ["#212529", "#212529", "#212529"]
     );
-    anime
-      .timeline({ loop: true })
-      .add({
-        targets: ".ml3 .letter",
-        opacity: [0, 1],
-        easing: "easeInOutQuad",
-        duration: 2250,
-        delay: (el, i) => 150 * (i + 1),
-      })
-      .add({
-        targets: ".ml3",
-        opacity: 0,
-        duration: 1000,
-        easing: "easeOutExpo",
-        delay: 1000,
-      });
-  };
+    return () => {};
+  }, []);
+
   const handleScroll = () => {
     console.log(scroller.getActiveLink());
-    var activelink = scroller.getActiveLink();
+    let activelink = scroller.getActiveLink();
     if (activelink === "experience") {
       setSkillSection(true);
     }
@@ -54,7 +75,7 @@ const Homeview = () => {
   return (
     <React.Fragment>
       <FadeInSection>
-        <section id="home-section" className="full-height">
+        <section id="home-section" className="full-height home-screen">
           <div className="container-fluid fadeInUp" id="banner">
             <div
               className="row no-gutters slider-text justify-content-center align-items-center"
@@ -64,15 +85,7 @@ const Homeview = () => {
                 <div className="text text-center">
                   <span className="subheading">Hey! I am</span>
                   <h1>Rajeeb A</h1>
-                  <h2 className="ml3">
-                    <span className="text-wrapper">
-                      <span className="line line1"></span>
-                      <span className="letters">
-                        I am a &nbsp;
-                        <span style={{ color: "#3e64ff" }}>Developer</span>
-                      </span>
-                    </span>
-                  </h2>
+                  <h2 id="text"></h2>
                 </div>
               </div>
             </div>
@@ -90,6 +103,18 @@ const Homeview = () => {
       <FadeInSection>
         <section id="resume-section" className="section">
           <Resume create={skillSection} />
+        </section>
+      </FadeInSection>
+      <FadeInSection>
+        <section id="service-section" className="section">
+          <h2 className="heading-section mb-4">SERVICES</h2>
+          <Services />
+        </section>
+      </FadeInSection>
+      <FadeInSection>
+        <section id="service-section" className="section">
+          <h2 className="heading-section mb-4">PROJECTS</h2>
+          <Projects />
         </section>
       </FadeInSection>
     </React.Fragment>

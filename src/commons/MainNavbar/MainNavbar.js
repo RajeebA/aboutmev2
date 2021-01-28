@@ -74,10 +74,23 @@ const MainNavbar = () => {
               </a> */}
             </li>
             <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="service-section"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="nav-link"
+              >
+                Services
+              </Link>
+            </li>
+            {/* <li className="nav-item">
               <a href="#services-section" className="nav-link">
                 <span>Services</span>
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a href="#projects-section" className="nav-link">
                 <span>Projects</span>

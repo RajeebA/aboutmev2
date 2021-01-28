@@ -76,10 +76,10 @@ const Resume = ({ create }) => {
     });
   };
   return (
-    <div className="container">
+    <div className="container resume-screen">
       <div className="row">
         <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-          <div id="list-example" class="list-group navi">
+          <div id="list-example" className="list-group navi">
             <Link
               activeClass="active-resume"
               to="education"
@@ -122,54 +122,67 @@ const Resume = ({ create }) => {
             data-spy="scroll"
             data-target="#list-example"
             data-offset="0"
-            class="scrollspy-example"
+            className="scrollspy-example"
           >
-            <div id="education" class="page">
-              <h2 class="heading">Education</h2>
-              <div class="resume-wrap d-flex ftco-animate fadeInUp ftco-animated">
-                <div class="icon-wrap d-flex align-items-center justify-content-center">
-                  <i class="fa fa-graduation-cap icon" aria-hidden="true"></i>
+            <div id="education" className="page">
+              <h2 className="heading">Education</h2>
+              <div className="resume-wrap d-flex ftco-animate fadeInUp ftco-animated">
+                <div className="icon-wrap d-flex align-items-center justify-content-center">
+                  <i
+                    className="fa fa-graduation-cap icon"
+                    aria-hidden="true"
+                  ></i>
                 </div>
-                <div class="text pl-3">
-                  <span class="date">2015-2018</span>
+                <div className="text pl-3">
+                  <span className="date">2015-2018</span>
                   <h2>Bachelor of Computer Application</h2>
-                  <span class="position">Nehru Arts and Science College</span>
+                  <span className="position">
+                    Nehru Arts and Science College
+                  </span>
                   <p>Completed BCA (Computer Application) with 76%.</p>
                 </div>
               </div>
-              <div class="resume-wrap d-flex ftco-animate fadeInUp ftco-animated">
-                <div class="icon-wrap d-flex align-items-center justify-content-center">
-                  <i class="fa fa-graduation-cap icon" aria-hidden="true"></i>
+              <div className="resume-wrap d-flex ftco-animate fadeInUp ftco-animated">
+                <div className="icon-wrap d-flex align-items-center justify-content-center">
+                  <i
+                    className="fa fa-graduation-cap icon"
+                    aria-hidden="true"
+                  ></i>
                 </div>
-                <div class="text pl-3">
-                  <span class="date">2013-2015</span>
+                <div className="text pl-3">
+                  <span className="date">2013-2015</span>
                   <h2>HSE Computer Science</h2>
-                  <span class="position">VMHSS Vadavannur</span>
+                  <span className="position">VMHSS Vadavannur</span>
                   <p>Completed HSE (Computer Science) with 72%.</p>
                 </div>
               </div>
-              <div class="resume-wrap d-flex ftco-animate fadeInUp ftco-animated">
-                <div class="icon-wrap d-flex align-items-center justify-content-center">
-                  <i class="fa fa-graduation-cap icon" aria-hidden="true"></i>
+              <div className="resume-wrap d-flex ftco-animate fadeInUp ftco-animated">
+                <div className="icon-wrap d-flex align-items-center justify-content-center">
+                  <i
+                    className="fa fa-graduation-cap icon"
+                    aria-hidden="true"
+                  ></i>
                 </div>
-                <div class="text pl-3">
-                  <span class="date">2012-2013</span>
+                <div className="text pl-3">
+                  <span className="date">2012-2013</span>
                   <h2>SSLC</h2>
-                  <span class="position">BSSHSS Kollengode</span>
+                  <span className="position">BSSHSS Kollengode</span>
                   <p>Completed SSLC with 80%.</p>
                 </div>
               </div>
             </div>
-            <div id="experience" class="page">
-              <h2 class="heading">Experience</h2>
-              <div class="resume-wrap d-flex fadeInUp">
-                <div class="icon-wrap d-flex align-items-center justify-content-center">
-                  <i class="fa fa-history icon" aria-hidden="true"></i>
+            <div id="experience" className="page">
+              <h2 className="heading">Experience</h2>
+              <div className="resume-wrap d-flex fadeInUp">
+                <div className="icon-wrap d-flex align-items-center justify-content-center">
+                  <i className="fa fa-history icon" aria-hidden="true"></i>
                 </div>
-                <div class="text pl-3">
-                  <span class="date">2018-2019</span>
+                <div className="text pl-3">
+                  <span className="date">2018-2019</span>
                   <h2>JavaScript Developer</h2>
-                  <span class="position">Crisp Cloud Solution Coimbatore</span>
+                  <span className="position">
+                    Crisp Cloud Solution Coimbatore
+                  </span>
                   <p>
                     implementing the front-end logic that defines the behavior
                     of the visual elements of a web application.connecting this
@@ -177,14 +190,14 @@ const Resume = ({ create }) => {
                   </p>
                 </div>
               </div>
-              <div class="resume-wrap d-flex fadeInUp">
-                <div class="icon-wrap d-flex align-items-center justify-content-center">
-                  <i class="fa fa-history icon" aria-hidden="true"></i>
+              <div className="resume-wrap d-flex fadeInUp">
+                <div className="icon-wrap d-flex align-items-center justify-content-center">
+                  <i className="fa fa-history icon" aria-hidden="true"></i>
                 </div>
-                <div class="text pl-3">
-                  <span class="date">2019-2020</span>
+                <div className="text pl-3">
+                  <span className="date">2019-2020</span>
                   <h2>Web Apps Developer</h2>
-                  <span class="position">Riafy Technologies</span>
+                  <span className="position">Riafy Technologies</span>
                   <p>
                     Writing well designed, testable, efficient code by using
                     best software development practices. Creating website
@@ -194,14 +207,14 @@ const Resume = ({ create }) => {
                   </p>
                 </div>
               </div>
-              <div class="resume-wrap d-flex fadeInUp">
-                <div class="icon-wrap d-flex align-items-center justify-content-center">
-                  <i class="fa fa-history icon" aria-hidden="true"></i>
+              <div className="resume-wrap d-flex fadeInUp">
+                <div className="icon-wrap d-flex align-items-center justify-content-center">
+                  <i className="fa fa-history icon" aria-hidden="true"></i>
                 </div>
-                <div class="text pl-3">
-                  <span class="date">2019-2020</span>
+                <div className="text pl-3">
+                  <span className="date">2019-2020</span>
                   <h2>Backend Developer</h2>
-                  <span class="position">Riafy Technologies</span>
+                  <span className="position">Riafy Technologies</span>
                   <p>
                     writing server-side web application logic in JavaScript with
                     database scripts MYSQL ,PostgreSQL and MongoDB.
@@ -209,15 +222,15 @@ const Resume = ({ create }) => {
                 </div>
               </div>
             </div>
-            <div id="skills" class="page three">
-              <h2 class="heading">Skills</h2>
+            <div id="skills" className="page three">
+              <h2 className="heading">Skills</h2>
 
-              <div class="row progress-circle mb-5">
+              <div className="row progress-circle mb-5">
                 {create &&
                   skills.map((skill) => (
-                    <div class="col-lg-4 mb-4">
-                      <div class="bg-white rounded-lg shadow p-4">
-                        <h2 class="h5 font-weight-bold text-center mb-4">
+                    <div className="col-lg-4 mb-4">
+                      <div className="bg-white rounded-lg shadow p-4">
+                        <h2 className="h5 font-weight-bold text-center mb-4">
                           {skill.name}
                         </h2>
                         {/* <!-- Progress bar 1 --> */}
@@ -243,47 +256,47 @@ const Resume = ({ create }) => {
                           }}
                         </AnimatedProgressProvider>
 
-                        <div class="row text-center mt-4">
-                          <div class="col-6 border-right">
-                            <div class="h4 font-weight-bold mb-0">
+                        <div className="row text-center mt-4">
+                          <div className="col-6 border-right">
+                            <div className="h4 font-weight-bold mb-0">
                               {skill.last_year}
                             </div>
-                            <span class="small text-gray">Last year</span>
+                            <span className="small text-gray">Last year</span>
                           </div>
-                          <div class="col-6">
-                            <div class="h4 font-weight-bold mb-0">
+                          <div className="col-6">
+                            <div className="h4 font-weight-bold mb-0">
                               {skill.last_month}
                             </div>
-                            <span class="small text-gray">Last month</span>
+                            <span className="small text-gray">Last month</span>
                           </div>
                         </div>
                       </div>
                     </div>
                   ))}
               </div>
-              <div class="row">
-                <div class="col-md-6 animate-box">
-                  <div class="progress-wrap ftco-animate fadeInUp ftco-animated">
+              <div className="row">
+                <div className="col-md-6 animate-box">
+                  <div className="progress-wrap ftco-animate fadeInUp ftco-animated">
                     <h3>CSS</h3>
-                    <div class="css"></div>
+                    <div className="css"></div>
                   </div>
                 </div>
-                <div class="col-md-6 animate-box">
-                  <div class="progress-wrap ftco-animate fadeInUp ftco-animated">
+                <div className="col-md-6 animate-box">
+                  <div className="progress-wrap ftco-animate fadeInUp ftco-animated">
                     <h3>HTML5</h3>
-                    <div class="html"></div>
+                    <div className="html"></div>
                   </div>
                 </div>
-                <div class="col-md-6 animate-box">
-                  <div class="progress-wrap ftco-animate fadeInUp ftco-animated">
+                <div className="col-md-6 animate-box">
+                  <div className="progress-wrap ftco-animate fadeInUp ftco-animated">
                     <h3>BOOSTRAP</h3>
-                    <div class="boostrap"></div>
+                    <div className="boostrap"></div>
                   </div>
                 </div>
-                <div class="col-md-6 animate-box">
-                  <div class="progress-wrap ftco-animate fadeInUp ftco-animated">
+                <div className="col-md-6 animate-box">
+                  <div className="progress-wrap ftco-animate fadeInUp ftco-animated">
                     <h3>JAVASCRIPT</h3>
-                    <div class="js"></div>
+                    <div className="js"></div>
                   </div>
                 </div>
               </div>

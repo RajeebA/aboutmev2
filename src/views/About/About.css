@@ -34,3 +34,13 @@
 .social-text {
   font-weight: 600;
 }
+.about-screen p,
+.about-screen h1,
+.about-screen h2,
+.about-screen h3,
+.about-screen h4,
+.about-screen h5,
+.about-screen h6,
+.about-screen span {
+  font-family: "Poppins", Arial, sans-serif !important;
+}

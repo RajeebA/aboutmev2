@@ -28,3 +28,18 @@
 .full-height {
   height: 100vh;
 }
+.heading-section {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+.home-screen p,
+.home-screen h1,
+.home-screen h2,
+.home-screen h3,
+.home-screen h4,
+.home-screen h5,
+.home-screen h6,
+.home-screen span {
+  font-family: "Poppins", Arial, sans-serif !important;
+}

@@ -83,3 +83,13 @@
 .animate-box {
   padding-bottom: 2rem;
 }
+.resume-screen p,
+.resume-screen h1,
+.resume-screen h2,
+.resume-screen h3,
+.resume-screen h4,
+.resume-screen h5,
+.resume-screen h6,
+.resume-screen span {
+  font-family: "Poppins", Arial, sans-serif !important;
+}

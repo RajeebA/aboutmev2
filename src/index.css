@@ -3,18 +3,9 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", Arial, sans-serif;
 }
-body,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-span {
-  font-family: "Poppins", Arial, sans-serif !important;
-}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

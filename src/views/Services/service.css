@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.services .service-card {
+  margin-bottom: 40px;
+  padding: 2em;
+  background: rgba(255, 255, 255, 0.1);
+  width: 100%;
+  cursor: pointer;
+  max-width: 288px;
+  min-height: 415px;
+}
+.services .service-card:hover {
+  background: #3e64ff;
+}
+.services .service-card .icon {
+  width: 60px;
+  height: 84px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.services .service-card .icon img {
+  width: 100%;
+  height: 100%;
+}
+.services .service-card .desc h3 {
+  text-transform: uppercase;
+  position: relative;
+  color: #000000;
+  font-weight: 500;
+  line-height: 1.3;
+  font-size: 19px;
+  font-family: "Poppins";
+}
