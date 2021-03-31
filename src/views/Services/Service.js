@@ -1,9 +1,9 @@
 import analytics from "../../assets/analysis.svg";
 import android from "../../assets/android.svg";
-import apple from "../../assets/apple.svg";
+// import apple from "../../assets/apple.svg";
 import web from "../../assets/settings.svg";
 import analytics_white from "../../assets/analysis_white.svg";
-import apple_white from "../../assets/apple_white.svg";
+// import apple_white from "../../assets/apple_white.svg";
 import web_white from "../../assets/settings_white.svg";
 import "./service.css";
 import { useState } from "react";

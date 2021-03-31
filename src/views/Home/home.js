@@ -85,7 +85,7 @@ const Homeview = () => {
                 <div className="text text-center">
                   <span className="subheading">Hey! I am</span>
                   <h1>Rajeeb A</h1>
-                  <h2 id="text"></h2>
+                  <h2 id="text">.</h2>
                 </div>
               </div>
             </div>

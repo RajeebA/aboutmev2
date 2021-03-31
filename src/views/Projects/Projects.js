@@ -4,7 +4,7 @@ import ketomined from "../../assets/keto.png";
 import "./projects.css";
 import { useState } from "react";
 const Projects = () => {
-  const [projects, setProjects] = useState([
+  const [projects] = useState([
     {
       icon: zymmo,
       heading: "ZYMMO",
@@ -18,16 +18,16 @@ const Projects = () => {
       description: "Work as a front end developer",
     },
   ]);
-  const onHover = (i) => {
-    let _tempServices = [...projects];
-    _tempServices[i].hovered = true;
-    setProjects(_tempServices);
-  };
-  const onLeave = (i) => {
-    let _tempServices = [...projects];
-    _tempServices[i].hovered = false;
-    setProjects(_tempServices);
-  };
+  // const onHover = (i) => {
+  //   let _tempServices = [...projects];
+  //   _tempServices[i].hovered = true;
+  //   setProjects(_tempServices);
+  // };
+  // const onLeave = (i) => {
+  //   let _tempServices = [...projects];
+  //   _tempServices[i].hovered = false;
+  //   setProjects(_tempServices);
+  // };
   return (
     <div className="row  projects">
       {projects.map((project, i) => (
@@ -36,7 +36,9 @@ const Projects = () => {
           <div className="overlay" />
           <div class="text text-center p-4">
             <h3>
-              <a href="#">Branding &amp; Illustration Design</a>
+              <a href="https://google.com" target="_blank" rel="noreferrer">
+                Branding &amp; Illustration Design
+              </a>
             </h3>
             <span>Web Design</span>
           </div>
