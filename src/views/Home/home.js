@@ -112,7 +112,7 @@ const Homeview = () => {
         </section>
       </FadeInSection>
       <FadeInSection>
-        <section id="service-section" className="section">
+        <section id="projects-section" className="section">
           <h2 className="heading-section mb-4">PROJECTS</h2>
           <Projects />
         </section>

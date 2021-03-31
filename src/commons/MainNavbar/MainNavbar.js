@@ -92,11 +92,24 @@ const MainNavbar = () => {
               </a>
             </li> */}
             <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="projects-section"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="nav-link"
+              >
+                Projects
+              </Link>
+            </li>
+            {/* <li className="nav-item">
               <a href="#projects-section" className="nav-link">
                 <span>Projects</span>
               </a>
-            </li>
-            <li className="nav-item">
+            </li> */}
+            {/* <li className="nav-item">
               <a href="#blog-section" className="nav-link">
                 <span>My Blog</span>
               </a>
@@ -105,7 +118,7 @@ const MainNavbar = () => {
               <a href="#contact-section" className="nav-link">
                 <span>Contact</span>
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

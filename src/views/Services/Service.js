@@ -33,14 +33,14 @@ const Services = () => {
       description:
         "coding, design and layout of a website according to a company's specifications. As the role takes into consideration user experience and function, a certain level of both graphic design and computer programming is necessary.",
     },
-    {
-      icon: apple,
-      hoverIcon: apple_white,
-      hovered: false,
-      heading: "ios developer",
-      description:
-        "creating and architecting new mobile applications by the IOS operating system, maintaining and improving existing features on existing applications, and working with our sales team to develop innovative solutions that meet our clients' business needs.",
-    },
+    // {
+    //   icon: apple,
+    //   hoverIcon: apple_white,
+    //   hovered: false,
+    //   heading: "ios developer",
+    //   description:
+    //     "creating and architecting new mobile applications by the IOS operating system, maintaining and improving existing features on existing applications, and working with our sales team to develop innovative solutions that meet our clients' business needs.",
+    // },
   ]);
   const onHover = (i) => {
     let _tempServices = [...services];
